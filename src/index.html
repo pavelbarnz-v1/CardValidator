@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking bank cards</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cw-widget__wrapper">
+            <div class="cv-widget">
+                <span>Card validator</span>
+                <div class="cw-widget__header">
+                    <div class="cw-widget__header__payment-system mir" data-payment="mir"></div>
+                    <div class="cw-widget__header__payment-system diners" data-payment="diners"></div>
+                    <div class="cw-widget__header__payment-system jcb" data-payment="jcb"></div>
+                    <div class="cw-widget__header__payment-system american-express" data-payment="american-express"></div>
+                    <div class="cw-widget__header__payment-system visa" data-payment="visa"></div>
+                    <div class="cw-widget__header__payment-system master-card" data-payment="master-card"></div>
+                    <div class="cw-widget__header__payment-system maestro" data-payment="maestro"></div>
+                </div>
+                <div class="cw-widget__body">
+                    <input class="card-number" type="text" data-cw-widget="input">
+                    <button class="validate" id="validate" type="button">check card</button>
+                </div>
+                <span class="cw-widget_hitn"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
